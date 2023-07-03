@@ -1833,9 +1833,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@uniwebcms/express@npm:0.2.7":
-  version: 0.2.7
-  resolution: "@uniwebcms/express@npm:0.2.7"
+"@uniwebcms/express@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "@uniwebcms/express@npm:0.3.0"
   dependencies:
     "@headlessui/react": ^1.7.3
     "@popperjs/core": ^2.10.1
@@ -1848,7 +1848,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     tailwindcss: ^3.2.4
-  checksum: a83686fcf90d984e7b1d04c0eeb87ed4ce0f79ed1296e492aa673411f0b74a0170ceabb6694f77b4b05fc533750bcceb490b52bf80c10dd290abc1f8f6dbb010
+  checksum: 2e9c33d069bb251ff018e0811b1d344cc305318e9ed0a72bed9c5c8972af7b27f3ab1ad32791f617cc302eca24f08e19abcd69c2f68916c7c7acf3323da674c9
   languageName: node
   linkType: hard
 
@@ -1876,16 +1876,6 @@ __metadata:
     style-loader: ^2.0.0
     webpack: ^5.74.0
   checksum: ea5dc9f217eefe72919110a40486d938e94ff3011b137fab95f4bdc850ab419ffd0ee12a152e9413f036a31ab368d4ca9481aa2217e43c3d5e8f1f452b211225
-  languageName: node
-  linkType: hard
-
-"@uniwebcms/module-sdk@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "@uniwebcms/module-sdk@npm:1.0.1"
-  peerDependencies:
-    react: ^18.2.0
-    react-dom: ^18.2.0
-  checksum: fac7d71373367179bffc162e79115786ae3872d59531d1b6cae4dcfd175427f586620c5f3e6d129165fe3efe61cf2cdfb5c2a06d1a5908e035876cb8898c4000
   languageName: node
   linkType: hard
 
@@ -3822,7 +3812,7 @@ __metadata:
   dependencies:
     "@headlessui/react": ^1.7.13
     "@tailwindcss/line-clamp": ^0.4.4
-    "@uniwebcms/module-sdk": ^1.0.1
+    "@uniwebcms/module-sdk": ^1.6.1
     react: ^18.2.0
     react-dom: ^18.2.0
     react-icons: ^4.6.0
@@ -5312,8 +5302,8 @@ __metadata:
   dependencies:
     "@headlessui/react": ^1.7.13
     "@tailwindcss/line-clamp": ^0.4.4
-    "@uniwebcms/express": 0.2.7
-    "@uniwebcms/module-sdk": ^1.0.1
+    "@uniwebcms/express": ^0.3.0
+    "@uniwebcms/module-sdk": ^1.6.1
     react: ^18.2.0
     react-dom: ^18.2.0
     react-icons: ^4.6.0
@@ -5801,6 +5791,8 @@ __metadata:
 "website-components-template@workspace:.":
   version: 0.0.0-use.local
   resolution: "website-components-template@workspace:."
+  dependencies:
+    "@uniwebcms/express": ^0.3.0
   languageName: unknown
   linkType: soft
 
